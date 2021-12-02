@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background game.jpeg');
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.num1{
+    
+    box-shadow: 0 14px 28px rgb(0, 0, 0,0.25), 0 10px 10px rgb(0, 0, 0,0.22) ;
+   
+    border-radius: 60px;
+    margin-bottom: -50px;
+    
+}
+
+
+.all{
+    text-align: center;
+    background-color: rgb(7, 45, 126);
+    padding-top:70px;
+    width: 750px;
+    height: 100vh;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 60px;
+    display: block;
+    
+    
+    
+   
+
+    
+}
+
+.num1 h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    color: #f8edeb;
+    margin-top: -80px;
+    background-color: rgb(7, 45, 126);
+    border-radius: 60px;
+}
+
+.num1 p {
+    line-height: 1.9;
+    letter-spacing: 2px;
+    color: yellow;
+    font-size: 18px;
+    padding-bottom: 50px;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 900;
+    opacity: 1;
+
+
+}
+.num2{
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 350px;
+    background-color: rgb(7, 45, 126);
+    color: wheat;
+    font-size: 25px;
+    
+}
+h1{
+    background-color: #12aab4;
+    color: #fff;
+    text-align: center;
+    width: 724px;
+    font-family: none;
+    padding: 13px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: none;
+    font-weight: 500;
+   
+}
+
+.num2 h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: wheat;
+    font-size: 2.4em;
+    letter-spacing: 2px;
+    background-color: rgb(7, 45, 126);
+
+
+}
+
+.num2 input .guessField  {
+    width: 70%;
+    height:55px;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 40px;
+
+}
+.guessField{
+    width: 35%;
+    padding: 20px;
+    border: 10px black solid;
+}
+.guessSubmit{
+    
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.guessSubmitEnter{
+    
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+}
+
+
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+.num2 h2 {
+    font-size: 24px;
+    color:wheat;
+    padding-bottom: 20px;
+}
+
+.num2 h3 {
+    font-size: 2.3em;
+    color: wheat;
+}
+
+.num2 h4{
+    font-size: 1.7em;
+    color: wheat;
+    padding:10px;
+}
+
+
+.num2 h5 {
+    font-size: 1.8em;
+    color: wheat;
+    padding:10px;
+}
+.guessSubmit{
+    background-color: wheat;
+    border: wheat;
+}
